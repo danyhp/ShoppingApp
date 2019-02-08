@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
     package="com.mmithb.developer.shoppingapp">
 
     <application
@@ -18,13 +20,8 @@
         </activity>
         <activity
             android:name=".AddItemActivity"
-            android:label="Add Item Activity"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mmithb.developer.shoppingapp.MainActivity" />>
+            android:label="Add Item Activity">
         </activity>
-
     </application>
 
 </manifest>
